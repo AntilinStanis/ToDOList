@@ -1,0 +1,14 @@
+<ul>
+
+    <li class="d-flex my-3 py-2 px-3" *ngFor="let task of tasks; let i=index" 
+    [style.backgroundColor]="listColor">
+        <button class="btn btn-danger space" (click)="removeTask(i)">Delete</button>
+        {{task}}
+          
+            <button class="btn btn-warning space Completed" [(ngModel)]="Completed" (click)="complete()">{{Completed}}</button>
+            
+ 
+        </li>
+</ul>
+
+<!-- <h2>My current tasks({{taskLength}})</h2> -->

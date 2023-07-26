@@ -1,0 +1,17 @@
+li{
+    justify-content:space-between;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #198754;
+    color: white;
+    }
+ul{
+    font-size: 25px;
+}
+.Completed{
+    font-size: large;
+/* color: white; */
+}
+/* .correct{
+    justify-content:flex-end;
+} */
